@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name:sq
+# key:sq
+# condition: (and (texmathp) 'auto)
+# type: command
+# --
+(yas-expand-snippet
+(if (string-match "^$\\|[^a-zA-Z\\]$" (buffer-substring-no-properties (line-beginning-position) (point)))
+ "\\sq{$1} $0"
+ "sq"))

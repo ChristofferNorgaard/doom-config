@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: rmm
+# key: rmm
+# condition: 'auto
+# type: command
+# --
+(yas-expand-snippet
+(if (string-match "^$\\|[^a-zA-Z]$" (buffer-substring-no-properties (line-beginning-position) (point)))
+ "\\mathrm{$1}$0"
+ "rmm"))

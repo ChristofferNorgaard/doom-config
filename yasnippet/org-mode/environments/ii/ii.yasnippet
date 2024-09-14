@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: Item 
+# key: ii
+# condition: 'auto
+# type: command
+# --
+(yas-expand-snippet
+(if (string-match "^$" (buffer-substring-no-properties (line-beginning-position) (point)))
+ "\\item $0"
+ "ii"))

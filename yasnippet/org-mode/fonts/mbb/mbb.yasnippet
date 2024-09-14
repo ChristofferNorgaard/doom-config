@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: mbb
+# key: mbb
+# condition: 'auto
+# type: command
+# --
+(yas-expand-snippet
+(if (string-match "^$\\|[^a-zA-Z]$" (buffer-substring-no-properties (line-beginning-position) (point)))
+ "\\mathbb{$1}$0"
+ "mbb"))

@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: ul
+# key: ul
+# condition: 'auto
+# type: command
+# --
+(yas-expand-snippet
+(if (string-match "^$\\|[^a-zA-Z]$" (buffer-substring-no-properties (line-beginning-position) (point)))
+ "\\underline{$1}$0"
+ "ul"))

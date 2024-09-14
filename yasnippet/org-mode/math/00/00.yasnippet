@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name:00 Subscript
+# key:00
+# condition: (and (texmathp) 'auto)
+#
+# type: command
+# --
+(yas-expand-snippet
+(if (string-match "\\w$\\|[\)\}\|\']$\\|\\]$" (buffer-substring-no-properties (line-beginning-position) (point)))
+ "_{0} $0"
+ "00"))

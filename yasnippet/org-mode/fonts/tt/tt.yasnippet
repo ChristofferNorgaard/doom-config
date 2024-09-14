@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: tt
+# key: tt
+# condition: 'auto
+# type: command
+# --
+(yas-expand-snippet
+(if (string-match "^$\\|[^a-zA-Z\\\\]$" (buffer-substring-no-properties (line-beginning-position) (point)))
+ "\\texttt{$1}$0"
+ "tt"))

@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: mcc
+# key: mcc
+# condition: 'auto
+# type: command
+# --
+(yas-expand-snippet
+(if (string-match "^$\\|[^a-zA-Z]$" (buffer-substring-no-properties (line-beginning-position) (point)))
+ "\\mathcal{$1}$0"
+ "mcc"))

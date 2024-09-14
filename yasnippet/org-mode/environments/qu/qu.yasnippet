@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name:qu
+# key:qu
+# condition: 'auto
+# type: command
+# --
+(yas-expand-snippet
+(if (string-match "^$\\|[^a-zA-Z\\]$" (buffer-substring-no-properties (line-beginning-position) (point)))
+"\\begin{quote}\n\t$1\n\\end{quote}"
+ "qu"))

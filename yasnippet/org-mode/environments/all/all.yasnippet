@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: Align environment with suppressed numbering
+# key: all
+# condition: 'auto
+# type: command
+# --
+(yas-expand-snippet
+(if (string-match "^$" (buffer-substring-no-properties (line-beginning-position) (point)))
+ "\\begin{align*}
+	$1
+\\end{align*}
+$0"
+ "all"))

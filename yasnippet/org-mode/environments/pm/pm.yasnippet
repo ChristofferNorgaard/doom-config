@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: Parentheses matrix pmatrix
+# key: pm
+# condition: 'auto
+# type: command
+# --
+(yas-expand-snippet
+(if (string-match "^$" (buffer-substring-no-properties (line-beginning-position) (point)))
+ "\\begin{pmatrix}\n\t$1\n\\end{pmatrix}$0"
+ "pm"))

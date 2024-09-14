@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name:Superscript
+# key:'
+# condition: (and (texmathp) 'auto)
+#
+# type: command
+# --
+(yas-expand-snippet
+(if (string-match "\\w$\\|[\)\}\|\']$\\|\\]$" (buffer-substring-no-properties (line-beginning-position) (point)))
+ "^{$1} $0"
+ "'"))

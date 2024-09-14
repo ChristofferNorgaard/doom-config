@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name:Text subscript
+# key:sd
+# condition: (and (texmathp) 'auto)
+#
+# type: command
+# --
+(yas-expand-snippet
+(if (string-match "\\w$\\|[\)\}\|\']$\\|\\]$" (buffer-substring-no-properties (line-beginning-position) (point)))
+ "_{\mathrm{$1}} $0"
+ "sd"))

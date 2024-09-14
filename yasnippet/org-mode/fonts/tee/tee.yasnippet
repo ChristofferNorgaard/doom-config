@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: tee
+# key: tee
+# condition: 'auto
+# type: command
+# --
+(yas-expand-snippet
+(if (string-match "^$\\|[^a-zA-Z]$" (buffer-substring-no-properties (line-beginning-position) (point)))
+ "\\text{$1}$0"
+ "tee"))

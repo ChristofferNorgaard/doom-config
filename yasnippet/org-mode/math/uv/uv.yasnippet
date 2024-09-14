@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name:uv
+# key:uv
+# condition: (and (texmathp) 'auto)
+# type: command
+# --
+(yas-expand-snippet
+(if (string-match "^$\\|[^a-zA-Z\\]$" (buffer-substring-no-properties (line-beginning-position) (point)))
+ "\\uvec{$1} $0"
+ "uv"))
