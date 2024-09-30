@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: Equation environment with suppressed numbering
+# key: nn
+# condition: 'auto
+# type: command
+# --
+(yas-expand-snippet
+(if (string-match "^$" (buffer-substring-no-properties (line-beginning-position) (point)))
+ "\\begin{equation*}
+	$1
+\\end{equation*}
+$0"
+ "nn"))

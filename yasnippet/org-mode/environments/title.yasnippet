@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: mytitlepage environment for FMF documents
+# key: title
+# condition: 'auto
+# type: command
+# --
+(yas-expand-snippet
+(if (string-match "^$" (buffer-substring-no-properties (line-beginning-position) (point)))
+ "\\begin{mytitlepage}{${1:title}}{${2:date}}\n\t$0\n\\end{mytitlepage}"
+ "title"))

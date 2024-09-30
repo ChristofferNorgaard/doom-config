@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: Minted environment
+# key: mint
+# condition: 'auto
+# type: command
+# --
+(yas-expand-snippet
+(if (string-match "^$" (buffer-substring-no-properties (line-beginning-position) (point)))
+ "\\begin{minted}{$1}\n$0    \n\end{minted}"
+ "mint"))

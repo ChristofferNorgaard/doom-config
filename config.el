@@ -76,10 +76,10 @@
 ;; they are implemented.
 
 (setq org-roam-directory "~/Documents/N - notes/NR - Org roam")
-(load "./texmathp.el")
+(load "~/.doom.d/texmathp.el")
 (use-package yasnippet
   :config
-  (setq yas-snippet-dirs '("./yasnippet/"))
+  (setq yas-snippet-dirs '("~/.doom.d/yasnippet/"))
   (yas-global-mode 1)
   (add-to-list 'yas-key-syntaxes 'yas-longest-key-from-whitespace)
 (defun my-yas-try-expanding-auto-snippets ()

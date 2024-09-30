@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: Array environment
+# key: arr
+# type: command
+# --
+(yas-expand-snippet
+(if (string-match "^$" (buffer-substring-no-properties (line-beginning-position) (point)))
+ "\\begin{array}{${1:cc}}\n\t$2\n\\end{array}$0"
+ "arr"))
