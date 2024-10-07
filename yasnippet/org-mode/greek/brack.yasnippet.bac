@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: bracket
+# key: (
+# condition: 'auto
+# --
+($1)$0

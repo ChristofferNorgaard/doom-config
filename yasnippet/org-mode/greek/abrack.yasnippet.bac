@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: abracket
+# key: [
+# condition: 'auto
+# --
+[$1]$0

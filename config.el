@@ -83,7 +83,7 @@
   (yas-global-mode 1)
   (add-to-list 'yas-key-syntaxes 'yas-longest-key-from-whitespace)
 (defun my-yas-try-expanding-auto-snippets ()
-    (when (and (boundp 'yas-minor-mode) yas-minor-mode)
+    (when (and (eq evil-state 'insert) (and (boundp 'yas-minor-mode) yas-minor-mode))
       (let ((yas-buffer-local-condition ''(require-snippet-condition . auto)))
         (yas-expand))))
   (add-hook 'post-command-hook #'my-yas-try-expanding-auto-snippets)
@@ -98,6 +98,8 @@
 (map! :after evil-org
       :map evil-org-mode-map
       :i "<tab>" #'my/org-tab-conditional)
+
+(remove-hook 'doom-first-buffer-hook #'smartparens-global-mode) ;; to dissable () completeing
 
 (with-eval-after-load "ispell"
   ;; Configure `LANG`, otherwise ispell.el cannot find a 'default

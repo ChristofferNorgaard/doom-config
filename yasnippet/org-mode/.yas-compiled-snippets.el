@@ -36,7 +36,7 @@
                                               (line-beginning-position) (point)))
                                "\\begin{quote}\n	$1\n\\end{quote}"
                              "qu")))
-                        "qu" 'auto nil nil
+                        "qu" nil nil nil
                         "/home/jakob/.doom.d/yasnippet/org-mode/environments/qu.yasnippet"
                         nil nil)
                        ("pm"
@@ -152,18 +152,6 @@
                              "enn")))
                         "Enumerate environment" 'auto nil nil
                         "/home/jakob/.doom.d/yasnippet/org-mode/environments/enn.yasnippet"
-                        nil nil)
-                       ("eenv"
-                        (progn
-                          (yas-expand-snippet
-                           (if
-                               (string-match "^$"
-                                             (buffer-substring-no-properties
-                                              (line-beginning-position) (point)))
-                               "\\begin{$1}{$2}\n	$0\n\\end{$1}"
-                             "eenv")))
-                        "New environment" 'auto nil nil
-                        "/home/jakob/.doom.d/yasnippet/org-mode/environments/eenv.yasnippet"
                         nil nil)
                        ("case"
                         (progn
@@ -455,13 +443,23 @@
                        (";c" "\\chi $0" "chi" 'auto nil nil
                         "/home/jakob/.doom.d/yasnippet/org-mode/greek/chi.yasnippet"
                         nil nil)
+                       ("{" "{$1}$0" "cbracket" 'auto nil nil
+                        "/home/jakob/.doom.d/yasnippet/org-mode/greek/cbrack.yasnippet"
+                        nil nil)
+                       ("(" "($1)$0" "bracket" 'auto nil nil
+                        "/home/jakob/.doom.d/yasnippet/org-mode/greek/brack.yasnippet"
+                        nil nil)
                        (";b" "\\beta $0" "beta" 'auto nil nil
                         "/home/jakob/.doom.d/yasnippet/org-mode/greek/beta.yasnippet"
                         nil nil)
                        (";a" "\\alpha $0" "alpha" 'auto nil nil
                         "/home/jakob/.doom.d/yasnippet/org-mode/greek/alpha.yasnippet"
                         nil nil)
-                       (";8" "\\infty $0 \n" "8" 'auto nil nil
+                       ("[" "[$1]$0" "abracket" 'auto nil nil
+                        "/home/jakob/.doom.d/yasnippet/org-mode/greek/abrack.yasnippet"
+                        nil nil)
+                       (";8" (progn (yas-expand-snippet "\\infty $0")) "8" 'auto
+                        nil nil
                         "/home/jakob/.doom.d/yasnippet/org-mode/greek/8.yasnippet"
                         nil nil)))
 
@@ -469,7 +467,19 @@
 ;;; Snippet definitions:
 ;;;
 (yas-define-snippets 'org-mode
-                     '(("vv"
+                     '(("xx"
+                        (progn
+                          (yas-expand-snippet
+                           (if
+                               (string-match "^$\\|[^a-zA-Z\\]$"
+                                             (buffer-substring-no-properties
+                                              (line-beginning-position) (point)))
+                               "\\times $0"
+                             "xx")))
+                        "times" (and (texmathp) 'auto) nil nil
+                        "/home/jakob/.doom.d/yasnippet/org-mode/math/xx.yasnippet"
+                        nil nil)
+                       ("vv"
                         (progn
                           (yas-expand-snippet
                            (if
@@ -504,6 +514,18 @@
                              "TT")))
                         "TTsuperscript" (and (texmathp) 'auto) nil nil
                         "/home/jakob/.doom.d/yasnippet/org-mode/math/transposedsuperscript.yasnippet"
+                        nil nil)
+                       ("->"
+                        (progn
+                          (yas-expand-snippet
+                           (if
+                               (string-match "^$\\|[^a-zA-Z\\]$"
+                                             (buffer-substring-no-properties
+                                              (line-beginning-position) (point)))
+                               "\\to $0"
+                             "to")))
+                        "to" (and (texmathp) 'auto) nil nil
+                        "/home/jakob/.doom.d/yasnippet/org-mode/math/to.yasnippet"
                         nil nil)
                        ("tff"
                         (progn
@@ -589,6 +611,18 @@
                         "prime" (and (texmathp) 'auto) nil nil
                         "/home/jakob/.doom.d/yasnippet/org-mode/math/prime.yasnippet"
                         nil nil)
+                       ("=>"
+                        (progn
+                          (yas-expand-snippet
+                           (if
+                               (string-match "^$\\|[^a-zA-Z\\]$"
+                                             (buffer-substring-no-properties
+                                              (line-beginning-position) (point)))
+                               "implies $0"
+                             "=>")))
+                        "implies" (and (texmathp) 'auto) nil nil
+                        "/home/jakob/.doom.d/yasnippet/org-mode/math/implies.yasnippet"
+                        nil nil)
                        ("hat"
                         (progn
                           (yas-expand-snippet
@@ -612,6 +646,26 @@
                              "ff")))
                         "ff" (and (texmathp) 'auto) nil nil
                         "/home/jakob/.doom.d/yasnippet/org-mode/math/ff.yasnippet"
+                        nil nil)
+                       (";E" " \\exists $0\n" "exists" (and (texmathp) 'auto)
+                        nil nil
+                        "/home/jakob/.doom.d/yasnippet/org-mode/math/exists.yasnippet"
+                        nil nil)
+                       (";A" " \\forall $0\n" "every" (and (texmathp) 'auto) nil
+                        nil
+                        "/home/jakob/.doom.d/yasnippet/org-mode/math/every.yasnippet"
+                        nil nil)
+                       ("<=>"
+                        (progn
+                          (yas-expand-snippet
+                           (if
+                               (string-match "^$\\|[^a-zA-Z\\]$"
+                                             (buffer-substring-no-properties
+                                              (line-beginning-position) (point)))
+                               "\\Leftrightarrow $0"
+                             "<=>")))
+                        "equivalent" (and (texmathp) 'auto) nil nil
+                        "/home/jakob/.doom.d/yasnippet/org-mode/math/equivalent.yasnippet"
                         nil nil)
                        ("ee"
                         (progn
@@ -651,4 +705,4 @@
                         nil nil)))
 
 
-;;; Do not edit! File generated at Fri Sep 27 14:09:20 2024
+;;; Do not edit! File generated at Sun Oct  6 23:15:47 2024
