@@ -119,3 +119,5 @@
 
 ;; The personal dictionary file has to exist, otherwise hunspell will
 ;; silently not use it.
+(use-package! anki-editor)
+(setq anki-editor-latex-style 'mathjax)

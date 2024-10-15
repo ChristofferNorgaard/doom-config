@@ -443,20 +443,11 @@
                        (";c" "\\chi $0" "chi" 'auto nil nil
                         "/home/jakob/.doom.d/yasnippet/org-mode/greek/chi.yasnippet"
                         nil nil)
-                       ("{" "{$1}$0" "cbracket" 'auto nil nil
-                        "/home/jakob/.doom.d/yasnippet/org-mode/greek/cbrack.yasnippet"
-                        nil nil)
-                       ("(" "($1)$0" "bracket" 'auto nil nil
-                        "/home/jakob/.doom.d/yasnippet/org-mode/greek/brack.yasnippet"
-                        nil nil)
                        (";b" "\\beta $0" "beta" 'auto nil nil
                         "/home/jakob/.doom.d/yasnippet/org-mode/greek/beta.yasnippet"
                         nil nil)
                        (";a" "\\alpha $0" "alpha" 'auto nil nil
                         "/home/jakob/.doom.d/yasnippet/org-mode/greek/alpha.yasnippet"
-                        nil nil)
-                       ("[" "[$1]$0" "abracket" 'auto nil nil
-                        "/home/jakob/.doom.d/yasnippet/org-mode/greek/abrack.yasnippet"
                         nil nil)
                        (";8" (progn (yas-expand-snippet "\\infty $0")) "8" 'auto
                         nil nil
@@ -705,4 +696,4 @@
                         nil nil)))
 
 
-;;; Do not edit! File generated at Sun Oct  6 23:15:47 2024
+;;; Do not edit! File generated at Sat Oct 12 11:22:30 2024

@@ -48,4 +48,6 @@
 ;; (unpin! pinned-package another-pinned-package)
 ;; ...Or *all* packages (NOT RECOMMENDED; will likely break things)
 ;; (unpin! t)
-(package! anki-editor)
+(package! anki-editor
+  :recipe (:host github :repo "anki-editor/anki-editor"))
+(package! org-modern)
