@@ -13,7 +13,7 @@
                              "title")))
                         "mytitlepage environment for FMF documents" 'auto nil
                         nil
-                        "/home/jakob/.doom.d/yasnippet/org-mode/environments/title.yasnippet"
+                        "/Users/jakobkralj/.doom.d/yasnippet/org-mode/environments/title.yasnippet"
                         nil nil)
                        ("tc"
                         (progn
@@ -25,7 +25,7 @@
                                "\\begin{tcolorbox}\n	$1\n\\end{tcolorbox}\n$0"
                              "tc")))
                         "tcolorbox environment" 'auto nil nil
-                        "/home/jakob/.doom.d/yasnippet/org-mode/environments/tc.yasnippet"
+                        "/Users/jakobkralj/.doom.d/yasnippet/org-mode/environments/tc.yasnippet"
                         nil nil)
                        ("qu"
                         (progn
@@ -37,7 +37,7 @@
                                "\\begin{quote}\n	$1\n\\end{quote}"
                              "qu")))
                         "qu" nil nil nil
-                        "/home/jakob/.doom.d/yasnippet/org-mode/environments/qu.yasnippet"
+                        "/Users/jakobkralj/.doom.d/yasnippet/org-mode/environments/qu.yasnippet"
                         nil nil)
                        ("pm"
                         (progn
@@ -49,7 +49,7 @@
                                "\\begin{pmatrix}\n	$1\n\\end{pmatrix}$0"
                              "pm")))
                         "Parentheses matrix pmatrix" 'auto nil nil
-                        "/home/jakob/.doom.d/yasnippet/org-mode/environments/pm.yasnippet"
+                        "/Users/jakobkralj/.doom.d/yasnippet/org-mode/environments/pm.yasnippet"
                         nil nil)
                        ("nn"
                         (progn
@@ -62,12 +62,12 @@
                              "nn")))
                         "Equation environment with suppressed numbering" 'auto
                         nil nil
-                        "/home/jakob/.doom.d/yasnippet/org-mode/environments/nn.yasnippet"
+                        "/Users/jakobkralj/.doom.d/yasnippet/org-mode/environments/nn.yasnippet"
                         nil nil)
                        ("nano.98414.save"
                         "- Job pri firmi od njenega očima\n- Miha, laufa Adakta\n"
                         "nano.98414.save" nil nil nil
-                        "/home/jakob/.doom.d/yasnippet/org-mode/environments/nano.98414.save"
+                        "/Users/jakobkralj/.doom.d/yasnippet/org-mode/environments/nano.98414.save"
                         nil nil)
                        ("mq"
                         (progn
@@ -79,7 +79,7 @@
                                "mqty(${1:${VISUAL:}})$0"
                              "mq")))
                         "\\mqty() (matrix for inline math)" 'auto nil nil
-                        "/home/jakob/.doom.d/yasnippet/org-mode/environments/mq.yasnippet"
+                        "/Users/jakobkralj/.doom.d/yasnippet/org-mode/environments/mq.yasnippet"
                         nil nil)
                        ("mk"
                         (progn
@@ -91,7 +91,7 @@
                                "\\\\( $1 \\\\) $0"
                              "mk")))
                         "mk" 'auto nil nil
-                        "/home/jakob/.doom.d/yasnippet/org-mode/environments/mk.yasnippet"
+                        "/Users/jakobkralj/.doom.d/yasnippet/org-mode/environments/mk.yasnippet"
                         nil nil)
                        ("mint"
                         (progn
@@ -103,7 +103,7 @@
                                "\\begin{minted}{$1}\n$0    \nnd{minted}"
                              "mint")))
                         "Minted environment" 'auto nil nil
-                        "/home/jakob/.doom.d/yasnippet/org-mode/environments/mint.yasnippet"
+                        "/Users/jakobkralj/.doom.d/yasnippet/org-mode/environments/mint.yasnippet"
                         nil nil)
                        ("itt"
                         (progn
@@ -115,7 +115,7 @@
                                "\\begin{itemize}\n\n	\\item $0\n\n\\end{itemize}"
                              "itt")))
                         "Itemize environment" 'auto nil nil
-                        "/home/jakob/.doom.d/yasnippet/org-mode/environments/itt.yasnippet"
+                        "/Users/jakobkralj/.doom.d/yasnippet/org-mode/environments/itt.yasnippet"
                         nil nil)
                        ("ii"
                         (progn
@@ -127,7 +127,7 @@
                                "\\item $0"
                              "ii")))
                         "Item" 'auto nil nil
-                        "/home/jakob/.doom.d/yasnippet/org-mode/environments/ii.yasnippet"
+                        "/Users/jakobkralj/.doom.d/yasnippet/org-mode/environments/ii.yasnippet"
                         nil nil)
                        ("env"
                         (progn
@@ -139,7 +139,7 @@
                                "\\begin{$1}\n	$0\n\\end{$1}"
                              "env")))
                         "New environment" 'auto nil nil
-                        "/home/jakob/.doom.d/yasnippet/org-mode/environments/env.yasnippet"
+                        "/Users/jakobkralj/.doom.d/yasnippet/org-mode/environments/env.yasnippet"
                         nil nil)
                        ("enn"
                         (progn
@@ -151,7 +151,7 @@
                                "\\begin{enumerate}\n\n	\\item $0\n\n\\end{enumerate}"
                              "enn")))
                         "Enumerate environment" 'auto nil nil
-                        "/home/jakob/.doom.d/yasnippet/org-mode/environments/enn.yasnippet"
+                        "/Users/jakobkralj/.doom.d/yasnippet/org-mode/environments/enn.yasnippet"
                         nil nil)
                        ("case"
                         (progn
@@ -163,7 +163,7 @@
                                "\\begin{cases}\n	$1\n\\end{cases}$0"
                              "case")))
                         "Cases environment" nil nil nil
-                        "/home/jakob/.doom.d/yasnippet/org-mode/environments/case.yasnippet"
+                        "/Users/jakobkralj/.doom.d/yasnippet/org-mode/environments/case.yasnippet"
                         nil nil)
                        ("arr"
                         (progn
@@ -175,7 +175,7 @@
                                "\\begin{array}{${1:cc}}\n	$2\n\\end{array}$0"
                              "arr")))
                         "Array environment" nil nil nil
-                        "/home/jakob/.doom.d/yasnippet/org-mode/environments/arr.yasnippet"
+                        "/Users/jakobkralj/.doom.d/yasnippet/org-mode/environments/arr.yasnippet"
                         nil nil)
                        ("all"
                         (progn
@@ -188,7 +188,7 @@
                              "all")))
                         "Align environment with suppressed numbering" 'auto nil
                         nil
-                        "/home/jakob/.doom.d/yasnippet/org-mode/environments/all.yasnippet"
+                        "/Users/jakobkralj/.doom.d/yasnippet/org-mode/environments/all.yasnippet"
                         nil nil)
                        ("VV"
                         (progn
@@ -200,7 +200,7 @@
                                "\\begin{verbatim}\n	$1\n\\end{verbatim}"
                              "VV")))
                         "Verbatim environment" 'auto nil nil
-                        "/home/jakob/.doom.d/yasnippet/org-mode/environments/VV.yasnippet"
+                        "/Users/jakobkralj/.doom.d/yasnippet/org-mode/environments/VV.yasnippet"
                         nil nil)))
 
 
@@ -217,7 +217,7 @@
                                "\\underline{$1}$0"
                              "ul")))
                         "ul" 'auto nil nil
-                        "/home/jakob/.doom.d/yasnippet/org-mode/fonts/ul.yasnippet"
+                        "/Users/jakobkralj/.doom.d/yasnippet/org-mode/fonts/ul.yasnippet"
                         nil nil)
                        ("tt"
                         (progn
@@ -229,7 +229,7 @@
                                "\\texttt{$1}$0"
                              "tt")))
                         "tt" 'auto nil nil
-                        "/home/jakob/.doom.d/yasnippet/org-mode/fonts/tt.yasnippet"
+                        "/Users/jakobkralj/.doom.d/yasnippet/org-mode/fonts/tt.yasnippet"
                         nil nil)
                        ("tm"
                         (progn
@@ -241,7 +241,7 @@
                                "\\music{$1}$0"
                              "tm")))
                         "tm" 'auto nil nil
-                        "/home/jakob/.doom.d/yasnippet/org-mode/fonts/tm.yasnippet"
+                        "/Users/jakobkralj/.doom.d/yasnippet/org-mode/fonts/tm.yasnippet"
                         nil nil)
                        ("tii"
                         (progn
@@ -253,7 +253,7 @@
                                "\\textit{$1}$0"
                              "tii")))
                         "tii" 'auto nil nil
-                        "/home/jakob/.doom.d/yasnippet/org-mode/fonts/tii.yasnippet"
+                        "/Users/jakobkralj/.doom.d/yasnippet/org-mode/fonts/tii.yasnippet"
                         nil nil)
                        ("tee"
                         (progn
@@ -265,7 +265,7 @@
                                "\\text{$1}$0"
                              "tee")))
                         "tee" 'auto nil nil
-                        "/home/jakob/.doom.d/yasnippet/org-mode/fonts/tee.yasnippet"
+                        "/Users/jakobkralj/.doom.d/yasnippet/org-mode/fonts/tee.yasnippet"
                         nil nil)
                        ("tbb"
                         (progn
@@ -277,7 +277,7 @@
                                "\\textbf{$1}$0"
                              "tbb")))
                         "tbb" 'auto nil nil
-                        "/home/jakob/.doom.d/yasnippet/org-mode/fonts/tbb.yasnippet"
+                        "/Users/jakobkralj/.doom.d/yasnippet/org-mode/fonts/tbb.yasnippet"
                         nil nil)
                        ("rmm"
                         (progn
@@ -289,7 +289,7 @@
                                "\\mathrm{$1}$0"
                              "rmm")))
                         "rmm" 'auto nil nil
-                        "/home/jakob/.doom.d/yasnippet/org-mode/fonts/rmm.yasnippet"
+                        "/Users/jakobkralj/.doom.d/yasnippet/org-mode/fonts/rmm.yasnippet"
                         nil nil)
                        ("msf"
                         (progn
@@ -301,7 +301,7 @@
                                "\\mathsf{$1}$0"
                              "msf")))
                         "msf" 'auto nil nil
-                        "/home/jakob/.doom.d/yasnippet/org-mode/fonts/msf.yasnippet"
+                        "/Users/jakobkralj/.doom.d/yasnippet/org-mode/fonts/msf.yasnippet"
                         nil nil)
                        ("mcc"
                         (progn
@@ -313,7 +313,7 @@
                                "\\mathcal{$1}$0"
                              "mcc")))
                         "mcc" 'auto nil nil
-                        "/home/jakob/.doom.d/yasnippet/org-mode/fonts/mcc.yasnippet"
+                        "/Users/jakobkralj/.doom.d/yasnippet/org-mode/fonts/mcc.yasnippet"
                         nil nil)
                        ("mbf"
                         (progn
@@ -325,7 +325,7 @@
                                "\\mathbf{$1}$0"
                              "mbf")))
                         "mbf" 'auto nil nil
-                        "/home/jakob/.doom.d/yasnippet/org-mode/fonts/mbf.yasnippet"
+                        "/Users/jakobkralj/.doom.d/yasnippet/org-mode/fonts/mbf.yasnippet"
                         nil nil)
                        ("mbb"
                         (progn
@@ -337,7 +337,7 @@
                                "\\mathbb{$1}$0"
                              "mbb")))
                         "mbb" 'auto nil nil
-                        "/home/jakob/.doom.d/yasnippet/org-mode/fonts/mbb.yasnippet"
+                        "/Users/jakobkralj/.doom.d/yasnippet/org-mode/fonts/mbb.yasnippet"
                         nil nil)))
 
 
@@ -345,113 +345,113 @@
 ;;;
 (yas-define-snippets 'org-mode
                      '((";z" "\\zeta $0" "zeta" 'auto nil nil
-                        "/home/jakob/.doom.d/yasnippet/org-mode/greek/zeta.yasnippet"
+                        "/Users/jakobkralj/.doom.d/yasnippet/org-mode/greek/zeta.yasnippet"
                         nil nil)
                        (";x" "\\xi $0" "xi" 'auto nil nil
-                        "/home/jakob/.doom.d/yasnippet/org-mode/greek/xi.yasnippet"
+                        "/Users/jakobkralj/.doom.d/yasnippet/org-mode/greek/xi.yasnippet"
                         nil nil)
                        (";vo" "\\vartheta $0" "vartheta" 'auto nil nil
-                        "/home/jakob/.doom.d/yasnippet/org-mode/greek/vartheta.yasnippet"
+                        "/Users/jakobkralj/.doom.d/yasnippet/org-mode/greek/vartheta.yasnippet"
                         nil nil)
                        (";vf" "\\varphi $0" "varphi" 'auto nil nil
-                        "/home/jakob/.doom.d/yasnippet/org-mode/greek/varphi.yasnippet"
+                        "/Users/jakobkralj/.doom.d/yasnippet/org-mode/greek/varphi.yasnippet"
                         nil nil)
                        (";ve" "\\varepsilon $0" "varepsilon" 'auto nil nil
-                        "/home/jakob/.doom.d/yasnippet/org-mode/greek/varepsilon.yasnippet"
+                        "/Users/jakobkralj/.doom.d/yasnippet/org-mode/greek/varepsilon.yasnippet"
                         nil nil)
                        (";X" "\\Xi $0" "Xi" 'auto nil nil
-                        "/home/jakob/.doom.d/yasnippet/org-mode/greek/uXi.yasnippet"
+                        "/Users/jakobkralj/.doom.d/yasnippet/org-mode/greek/uXi.yasnippet"
                         nil nil)
                        (";O" "\\Theta $0" "Theta" 'auto nil nil
-                        "/home/jakob/.doom.d/yasnippet/org-mode/greek/uTheta.yasnippet"
+                        "/Users/jakobkralj/.doom.d/yasnippet/org-mode/greek/uTheta.yasnippet"
                         nil nil)
                        (";S" "\\Sigma $0" "Sigma" 'auto nil nil
-                        "/home/jakob/.doom.d/yasnippet/org-mode/greek/uSigma.yasnippet"
+                        "/Users/jakobkralj/.doom.d/yasnippet/org-mode/greek/uSigma.yasnippet"
                         nil nil)
                        (";P" "\\Psi $0" "Psi" 'auto nil nil
-                        "/home/jakob/.doom.d/yasnippet/org-mode/greek/uPsi.yasnippet"
+                        "/Users/jakobkralj/.doom.d/yasnippet/org-mode/greek/uPsi.yasnippet"
                         nil nil)
                        (";I" "\\Pi $0" "Pi" 'auto nil nil
-                        "/home/jakob/.doom.d/yasnippet/org-mode/greek/uPi.yasnippet"
+                        "/Users/jakobkralj/.doom.d/yasnippet/org-mode/greek/uPi.yasnippet"
                         nil nil)
                        (";F" "\\Phi $0" "Phi" 'auto nil nil
-                        "/home/jakob/.doom.d/yasnippet/org-mode/greek/uPhi.yasnippet"
+                        "/Users/jakobkralj/.doom.d/yasnippet/org-mode/greek/uPhi.yasnippet"
                         nil nil)
                        (";W" "\\Omega $0" "Omega" 'auto nil nil
-                        "/home/jakob/.doom.d/yasnippet/org-mode/greek/uOmega.yasnippet"
+                        "/Users/jakobkralj/.doom.d/yasnippet/org-mode/greek/uOmega.yasnippet"
                         nil nil)
                        (";L" "\\Lambda $0" "Lambda" 'auto nil nil
-                        "/home/jakob/.doom.d/yasnippet/org-mode/greek/uLambda.yasnippet"
+                        "/Users/jakobkralj/.doom.d/yasnippet/org-mode/greek/uLambda.yasnippet"
                         nil nil)
                        (";G" "\\Gamma $0" "Gamma" 'auto nil nil
-                        "/home/jakob/.doom.d/yasnippet/org-mode/greek/uGamma.yasnippet"
+                        "/Users/jakobkralj/.doom.d/yasnippet/org-mode/greek/uGamma.yasnippet"
                         nil nil)
                        (";D" "\\Delta $0" "Delta" 'auto nil nil
-                        "/home/jakob/.doom.d/yasnippet/org-mode/greek/uDelta.yasnippet"
+                        "/Users/jakobkralj/.doom.d/yasnippet/org-mode/greek/uDelta.yasnippet"
                         nil nil)
                        (";o" "\\theta $0" "theta" 'auto nil nil
-                        "/home/jakob/.doom.d/yasnippet/org-mode/greek/theta.yasnippet"
+                        "/Users/jakobkralj/.doom.d/yasnippet/org-mode/greek/theta.yasnippet"
                         nil nil)
                        (";t" "\\tau $0" "tau" 'auto nil nil
-                        "/home/jakob/.doom.d/yasnippet/org-mode/greek/tau.yasnippet"
+                        "/Users/jakobkralj/.doom.d/yasnippet/org-mode/greek/tau.yasnippet"
                         nil nil)
                        (";s" "\\sigma $0" "sigma" 'auto nil nil
-                        "/home/jakob/.doom.d/yasnippet/org-mode/greek/sigma.yasnippet"
+                        "/Users/jakobkralj/.doom.d/yasnippet/org-mode/greek/sigma.yasnippet"
                         nil nil)
                        (";r" "\\rho $0" "rho" 'auto nil nil
-                        "/home/jakob/.doom.d/yasnippet/org-mode/greek/rho.yasnippet"
+                        "/Users/jakobkralj/.doom.d/yasnippet/org-mode/greek/rho.yasnippet"
                         nil nil)
                        (";p" "\\psi $0" "psi" 'auto nil nil
-                        "/home/jakob/.doom.d/yasnippet/org-mode/greek/psi.yasnippet"
+                        "/Users/jakobkralj/.doom.d/yasnippet/org-mode/greek/psi.yasnippet"
                         nil nil)
                        (";i" "\\pi $0" "pi" 'auto nil nil
-                        "/home/jakob/.doom.d/yasnippet/org-mode/greek/pi.yasnippet"
+                        "/Users/jakobkralj/.doom.d/yasnippet/org-mode/greek/pi.yasnippet"
                         nil nil)
                        (";f" "\\phi $0" "phi" 'auto nil nil
-                        "/home/jakob/.doom.d/yasnippet/org-mode/greek/phi.yasnippet"
+                        "/Users/jakobkralj/.doom.d/yasnippet/org-mode/greek/phi.yasnippet"
                         nil nil)
                        (";w" "\\omega $0" "omega" 'auto nil nil
-                        "/home/jakob/.doom.d/yasnippet/org-mode/greek/omega.yasnippet"
+                        "/Users/jakobkralj/.doom.d/yasnippet/org-mode/greek/omega.yasnippet"
                         nil nil)
                        (";n" "\\nu $0" "nu" 'auto nil nil
-                        "/home/jakob/.doom.d/yasnippet/org-mode/greek/nu.yasnippet"
+                        "/Users/jakobkralj/.doom.d/yasnippet/org-mode/greek/nu.yasnippet"
                         nil nil)
                        (";N" "\\nabla $0\n" "∇ (nabla)" 'auto nil nil
-                        "/home/jakob/.doom.d/yasnippet/org-mode/greek/nabla.yasnippet"
+                        "/Users/jakobkralj/.doom.d/yasnippet/org-mode/greek/nabla.yasnippet"
                         nil nil)
                        (";m" "\\mu $0" "mu" 'auto nil nil
-                        "/home/jakob/.doom.d/yasnippet/org-mode/greek/mu.yasnippet"
+                        "/Users/jakobkralj/.doom.d/yasnippet/org-mode/greek/mu.yasnippet"
                         nil nil)
                        (";l" "\\lambda $0" "lambda" 'auto nil nil
-                        "/home/jakob/.doom.d/yasnippet/org-mode/greek/lambda.yasnippet"
+                        "/Users/jakobkralj/.doom.d/yasnippet/org-mode/greek/lambda.yasnippet"
                         nil nil)
                        (";k" "\\kappa $0" "kappa" 'auto nil nil
-                        "/home/jakob/.doom.d/yasnippet/org-mode/greek/kappa.yasnippet"
+                        "/Users/jakobkralj/.doom.d/yasnippet/org-mode/greek/kappa.yasnippet"
                         nil nil)
                        (";g" "\\gamma $0" "gamma" 'auto nil nil
-                        "/home/jakob/.doom.d/yasnippet/org-mode/greek/gamma.yasnippet"
+                        "/Users/jakobkralj/.doom.d/yasnippet/org-mode/greek/gamma.yasnippet"
                         nil nil)
                        (";h" "\\eta $0" "eta" 'auto nil nil
-                        "/home/jakob/.doom.d/yasnippet/org-mode/greek/eta.yasnippet"
+                        "/Users/jakobkralj/.doom.d/yasnippet/org-mode/greek/eta.yasnippet"
                         nil nil)
                        (";e" "\\epsilon $0" "epsilon" 'auto nil nil
-                        "/home/jakob/.doom.d/yasnippet/org-mode/greek/epsilon.yasnippet"
+                        "/Users/jakobkralj/.doom.d/yasnippet/org-mode/greek/epsilon.yasnippet"
                         nil nil)
                        (";d" "\\delta $0" "delta" 'auto nil nil
-                        "/home/jakob/.doom.d/yasnippet/org-mode/greek/delta.yasnippet"
+                        "/Users/jakobkralj/.doom.d/yasnippet/org-mode/greek/delta.yasnippet"
                         nil nil)
                        (";c" "\\chi $0" "chi" 'auto nil nil
-                        "/home/jakob/.doom.d/yasnippet/org-mode/greek/chi.yasnippet"
+                        "/Users/jakobkralj/.doom.d/yasnippet/org-mode/greek/chi.yasnippet"
                         nil nil)
                        (";b" "\\beta $0" "beta" 'auto nil nil
-                        "/home/jakob/.doom.d/yasnippet/org-mode/greek/beta.yasnippet"
+                        "/Users/jakobkralj/.doom.d/yasnippet/org-mode/greek/beta.yasnippet"
                         nil nil)
                        (";a" "\\alpha $0" "alpha" 'auto nil nil
-                        "/home/jakob/.doom.d/yasnippet/org-mode/greek/alpha.yasnippet"
+                        "/Users/jakobkralj/.doom.d/yasnippet/org-mode/greek/alpha.yasnippet"
                         nil nil)
                        (";8" (progn (yas-expand-snippet "\\infty $0")) "8" 'auto
                         nil nil
-                        "/home/jakob/.doom.d/yasnippet/org-mode/greek/8.yasnippet"
+                        "/Users/jakobkralj/.doom.d/yasnippet/org-mode/greek/8.yasnippet"
                         nil nil)))
 
 
@@ -468,7 +468,7 @@
                                "\\times $0"
                              "xx")))
                         "times" (and (texmathp) 'auto) nil nil
-                        "/home/jakob/.doom.d/yasnippet/org-mode/math/xx.yasnippet"
+                        "/Users/jakobkralj/.doom.d/yasnippet/org-mode/math/xx.yasnippet"
                         nil nil)
                        ("vv"
                         (progn
@@ -480,7 +480,7 @@
                                "\\vec{$1} $0"
                              "vv")))
                         "vv" (and (texmathp) 'auto) nil nil
-                        "/home/jakob/.doom.d/yasnippet/org-mode/math/vv.yasnippet"
+                        "/Users/jakobkralj/.doom.d/yasnippet/org-mode/math/vv.yasnippet"
                         nil nil)
                        ("uv"
                         (progn
@@ -492,7 +492,7 @@
                                "\\uvec{$1} $0"
                              "uv")))
                         "uv" (and (texmathp) 'auto) nil nil
-                        "/home/jakob/.doom.d/yasnippet/org-mode/math/uv.yasnippet"
+                        "/Users/jakobkralj/.doom.d/yasnippet/org-mode/math/uv.yasnippet"
                         nil nil)
                        ("TT"
                         (progn
@@ -504,7 +504,7 @@
                                "^{T} $0"
                              "TT")))
                         "TTsuperscript" (and (texmathp) 'auto) nil nil
-                        "/home/jakob/.doom.d/yasnippet/org-mode/math/transposedsuperscript.yasnippet"
+                        "/Users/jakobkralj/.doom.d/yasnippet/org-mode/math/transposedsuperscript.yasnippet"
                         nil nil)
                        ("->"
                         (progn
@@ -516,7 +516,7 @@
                                "\\to $0"
                              "to")))
                         "to" (and (texmathp) 'auto) nil nil
-                        "/home/jakob/.doom.d/yasnippet/org-mode/math/to.yasnippet"
+                        "/Users/jakobkralj/.doom.d/yasnippet/org-mode/math/to.yasnippet"
                         nil nil)
                        ("tff"
                         (progn
@@ -528,7 +528,7 @@
                                "\\tfrac{$1}{$2} $0"
                              "tff")))
                         "tff" (and (texmathp) 'auto) nil nil
-                        "/home/jakob/.doom.d/yasnippet/org-mode/math/tff.yasnippet"
+                        "/Users/jakobkralj/.doom.d/yasnippet/org-mode/math/tff.yasnippet"
                         nil nil)
                        ("sd"
                         (progn
@@ -540,7 +540,7 @@
                                "_{mathrm{$1}} $0"
                              "sd")))
                         "Text subscript" (and (texmathp) 'auto) nil nil
-                        "/home/jakob/.doom.d/yasnippet/org-mode/math/textsubscript.yasnippet"
+                        "/Users/jakobkralj/.doom.d/yasnippet/org-mode/math/textsubscript.yasnippet"
                         nil nil)
                        ("'"
                         (progn
@@ -552,7 +552,7 @@
                                "^{$1} $0"
                              "'")))
                         "Superscript" (and (texmathp) 'auto) nil nil
-                        "/home/jakob/.doom.d/yasnippet/org-mode/math/superscript.yasnippet"
+                        "/Users/jakobkralj/.doom.d/yasnippet/org-mode/math/superscript.yasnippet"
                         nil nil)
                        (";"
                         (progn
@@ -564,7 +564,7 @@
                                "_{$1} $0"
                              ";")))
                         "Subscript" (and (texmathp) 'auto) nil nil
-                        "/home/jakob/.doom.d/yasnippet/org-mode/math/subscript.yasnippet"
+                        "/Users/jakobkralj/.doom.d/yasnippet/org-mode/math/subscript.yasnippet"
                         nil nil)
                        ("**"
                         (progn
@@ -576,7 +576,7 @@
                                "^{*} $0"
                              "**")))
                         "Starsuperscript" (and (texmathp) 'auto) nil nil
-                        "/home/jakob/.doom.d/yasnippet/org-mode/math/starsuperscript.yasnippet"
+                        "/Users/jakobkralj/.doom.d/yasnippet/org-mode/math/starsuperscript.yasnippet"
                         nil nil)
                        ("sq"
                         (progn
@@ -588,7 +588,7 @@
                                "\\sq{$1} $0"
                              "sq")))
                         "sq" (and (texmathp) 'auto) nil nil
-                        "/home/jakob/.doom.d/yasnippet/org-mode/math/sq.yasnippet"
+                        "/Users/jakobkralj/.doom.d/yasnippet/org-mode/math/sq.yasnippet"
                         nil nil)
                        ("\""
                         (progn
@@ -600,7 +600,19 @@
                                "' $0"
                              "\"")))
                         "prime" (and (texmathp) 'auto) nil nil
-                        "/home/jakob/.doom.d/yasnippet/org-mode/math/prime.yasnippet"
+                        "/Users/jakobkralj/.doom.d/yasnippet/org-mode/math/prime.yasnippet"
+                        nil nil)
+                       ("pp"
+                        (progn
+                          (yas-expand-snippet
+                           (if
+                               (string-match "^$\\|[^a-zA-Z\\]$"
+                                             (buffer-substring-no-properties
+                                              (line-beginning-position) (point)))
+                               "\\partial $0"
+                             "pp")))
+                        "pp" (and (texmathp) 'auto) nil nil
+                        "/Users/jakobkralj/.doom.d/yasnippet/org-mode/math/pp.yasnippet"
                         nil nil)
                        ("=>"
                         (progn
@@ -612,7 +624,7 @@
                                "implies $0"
                              "=>")))
                         "implies" (and (texmathp) 'auto) nil nil
-                        "/home/jakob/.doom.d/yasnippet/org-mode/math/implies.yasnippet"
+                        "/Users/jakobkralj/.doom.d/yasnippet/org-mode/math/implies.yasnippet"
                         nil nil)
                        ("hat"
                         (progn
@@ -624,7 +636,7 @@
                                "\\hat{$1} $0"
                              "hat")))
                         "hat" (and (texmathp) 'auto) nil nil
-                        "/home/jakob/.doom.d/yasnippet/org-mode/math/hat.yasnippet"
+                        "/Users/jakobkralj/.doom.d/yasnippet/org-mode/math/hat.yasnippet"
                         nil nil)
                        ("ff"
                         (progn
@@ -636,15 +648,15 @@
                                "\\frac{$1}{$2} $0"
                              "ff")))
                         "ff" (and (texmathp) 'auto) nil nil
-                        "/home/jakob/.doom.d/yasnippet/org-mode/math/ff.yasnippet"
+                        "/Users/jakobkralj/.doom.d/yasnippet/org-mode/math/ff.yasnippet"
                         nil nil)
                        (";E" " \\exists $0\n" "exists" (and (texmathp) 'auto)
                         nil nil
-                        "/home/jakob/.doom.d/yasnippet/org-mode/math/exists.yasnippet"
+                        "/Users/jakobkralj/.doom.d/yasnippet/org-mode/math/exists.yasnippet"
                         nil nil)
                        (";A" " \\forall $0\n" "every" (and (texmathp) 'auto) nil
                         nil
-                        "/home/jakob/.doom.d/yasnippet/org-mode/math/every.yasnippet"
+                        "/Users/jakobkralj/.doom.d/yasnippet/org-mode/math/every.yasnippet"
                         nil nil)
                        ("<=>"
                         (progn
@@ -656,7 +668,7 @@
                                "\\Leftrightarrow $0"
                              "<=>")))
                         "equivalent" (and (texmathp) 'auto) nil nil
-                        "/home/jakob/.doom.d/yasnippet/org-mode/math/equivalent.yasnippet"
+                        "/Users/jakobkralj/.doom.d/yasnippet/org-mode/math/equivalent.yasnippet"
                         nil nil)
                        ("ee"
                         (progn
@@ -668,7 +680,7 @@
                                "e^{$1} $0"
                              "ee")))
                         "Auto e" (and (texmathp) 'auto) nil nil
-                        "/home/jakob/.doom.d/yasnippet/org-mode/math/ee.yasnippet"
+                        "/Users/jakobkralj/.doom.d/yasnippet/org-mode/math/ee.yasnippet"
                         nil nil)
                        ("bar"
                         (progn
@@ -680,7 +692,7 @@
                                "\\bar{$1} $0"
                              "bar")))
                         "bar" (and (texmathp) 'auto) nil nil
-                        "/home/jakob/.doom.d/yasnippet/org-mode/math/bar.yasnippet"
+                        "/Users/jakobkralj/.doom.d/yasnippet/org-mode/math/bar.yasnippet"
                         nil nil)
                        ("00"
                         (progn
@@ -692,8 +704,8 @@
                                "_{0} $0"
                              "00")))
                         "00 Subscript" (and (texmathp) 'auto) nil nil
-                        "/home/jakob/.doom.d/yasnippet/org-mode/math/00.yasnippet"
+                        "/Users/jakobkralj/.doom.d/yasnippet/org-mode/math/00.yasnippet"
                         nil nil)))
 
 
-;;; Do not edit! File generated at Sat Oct 12 11:22:30 2024
+;;; Do not edit! File generated at Wed Oct 23 09:17:35 2024
