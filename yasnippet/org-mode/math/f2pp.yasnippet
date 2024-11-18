@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name:f2pp
+# key:f2pp
+# condition: (and (texmathp) 'auto)
+# type: command
+# --
+(yas-expand-snippet
+(if (string-match "^$\\|[^a-zA-Z\\]$" (buffer-substring-no-properties (line-beginning-position) (point)))
+ "\\frac{\\partial^{2} $1}{\\partial $2^{2}}$0"
+ "f2pp"))

@@ -638,6 +638,30 @@
                         "hat" (and (texmathp) 'auto) nil nil
                         "/Users/jakobkralj/.doom.d/yasnippet/org-mode/math/hat.yasnippet"
                         nil nil)
+                       ("fpp"
+                        (progn
+                          (yas-expand-snippet
+                           (if
+                               (string-match "^$\\|[^a-zA-Z\\]$"
+                                             (buffer-substring-no-properties
+                                              (line-beginning-position) (point)))
+                               "\\frac{\\partial $1}{\\partial $2}$0"
+                             "fpp")))
+                        "fpp" (and (texmathp) 'auto) nil nil
+                        "/Users/jakobkralj/.doom.d/yasnippet/org-mode/math/fpp.yasnippet"
+                        nil nil)
+                       ("fnpp"
+                        (progn
+                          (yas-expand-snippet
+                           (if
+                               (string-match "^$\\|[^a-zA-Z\\]$"
+                                             (buffer-substring-no-properties
+                                              (line-beginning-position) (point)))
+                               "\\frac{\\partial^{$1} $2}{\\partial $3^{$1}}$0"
+                             "fnpp")))
+                        "fnpp" (and (texmathp) 'auto) nil nil
+                        "/Users/jakobkralj/.doom.d/yasnippet/org-mode/math/fnpp.yasnippet"
+                        nil nil)
                        ("ff"
                         (progn
                           (yas-expand-snippet
@@ -649,6 +673,18 @@
                              "ff")))
                         "ff" (and (texmathp) 'auto) nil nil
                         "/Users/jakobkralj/.doom.d/yasnippet/org-mode/math/ff.yasnippet"
+                        nil nil)
+                       ("f2pp"
+                        (progn
+                          (yas-expand-snippet
+                           (if
+                               (string-match "^$\\|[^a-zA-Z\\]$"
+                                             (buffer-substring-no-properties
+                                              (line-beginning-position) (point)))
+                               "\\frac{\\partial^{2} $1}{\\partial $2^{2}}$0"
+                             "f2pp")))
+                        "f2pp" (and (texmathp) 'auto) nil nil
+                        "/Users/jakobkralj/.doom.d/yasnippet/org-mode/math/f2pp.yasnippet"
                         nil nil)
                        (";E" " \\exists $0\n" "exists" (and (texmathp) 'auto)
                         nil nil
@@ -682,6 +718,18 @@
                         "Auto e" (and (texmathp) 'auto) nil nil
                         "/Users/jakobkralj/.doom.d/yasnippet/org-mode/math/ee.yasnippet"
                         nil nil)
+                       ("b("
+                        (progn
+                          (yas-expand-snippet
+                           (if
+                               (string-match "^$\\|[^a-zA-Z\\]$"
+                                             (buffer-substring-no-properties
+                                              (line-beginning-position) (point)))
+                               "\\left( $1 \\right)$0"
+                             "b(")))
+                        "bround" (and (texmathp) 'auto) nil nil
+                        "/Users/jakobkralj/.doom.d/yasnippet/org-mode/math/bround.yasnippet"
+                        nil nil)
                        ("bar"
                         (progn
                           (yas-expand-snippet
@@ -708,4 +756,4 @@
                         nil nil)))
 
 
-;;; Do not edit! File generated at Wed Oct 23 09:17:35 2024
+;;; Do not edit! File generated at Mon Nov 18 11:56:20 2024

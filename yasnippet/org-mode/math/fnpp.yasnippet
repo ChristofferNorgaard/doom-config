@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name:fnpp
+# key:fnpp
+# condition: (and (texmathp) 'auto)
+# type: command
+# --
+(yas-expand-snippet
+(if (string-match "^$\\|[^a-zA-Z\\]$" (buffer-substring-no-properties (line-beginning-position) (point)))
+ "\\frac{\\partial^{$1} $2}{\\partial $3^{$1}}$0"
+ "fnpp"))
