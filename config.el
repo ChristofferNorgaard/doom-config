@@ -121,3 +121,4 @@
 ;; silently not use it.
 (use-package! anki-editor)
 (setq anki-editor-latex-style 'mathjax)
+(setq +latex-viewers '(pdf-tools))
