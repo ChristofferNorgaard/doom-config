@@ -51,5 +51,7 @@
 (package! anki-editor
   :recipe (:host github :repo "anki-editor/anki-editor"))
 (package! org-modern)
+(package! csv-mode)
 (package! latex-preview-pane-enable
   :recipe (:host github :repo "jsinglet/latex-preview-pane"))
+(package! zotra)

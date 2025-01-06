@@ -122,3 +122,61 @@
 (use-package! anki-editor)
 (setq anki-editor-latex-style 'mathjax)
 (setq +latex-viewers '(pdf-tools))
+(use-package! zotra)
+(setq zotra-default-bibliography "~/Documents/N - notes/NR - Org roam/References/main.bib")
+
+(defun prompt-for-url ()
+  "Prompt user for a URL and return it."
+  (read-string "Enter URL: "))
+
+(defvar archivebox-data-dir "~/Documents/N - notes/NR - Org roam/References/Archive"
+  "Directory where archivebox data is stored.")
+
+(defvar archivebox-process-buffer "*archivebox-output*"
+  "Buffer name for archivebox process output.")
+
+(defun process-url-with-zotra-and-archive (url)
+  "Process URL with zotra-add-entry and archivebox asynchronously.
+Argument URL is the URL to process."
+  (interactive
+   (list (prompt-for-url)))
+
+  ;; Call zotra-add-entry with the URL
+  (zotra-add-entry url)
+
+  ;; Create or get buffer for output
+  (let ((output-buffer (get-buffer-create archivebox-process-buffer)))
+    ;; Clear the buffer
+    (with-current-buffer output-buffer
+      (erase-buffer))
+
+    ;; Execute command asynchronously
+    (let* ((default-directory archivebox-data-dir)
+           (process (start-process "archivebox-process"
+                                 output-buffer
+                                 "/usr/bin/env"
+                                 "archivebox"
+                                 "add"
+                                 url)))
+
+      ;; Set process sentinel to handle completion
+      (set-process-sentinel
+       process
+       (lambda (proc event)
+         (cond
+          ((string-match "finished" event)
+           (message "Archivebox finished processing URL: %s" url))
+          ((string-match "exited abnormally" event)
+           (message "Error processing URL: %s" url)
+           (display-buffer archivebox-process-buffer)
+           (with-current-buffer archivebox-process-buffer
+             (goto-char (point-max))
+             (insert (format "\nProcess ended with error: %s\n" event)))))))
+
+      ;; Log the command to buffer (will only be seen if there's an error)
+      (with-current-buffer output-buffer
+        (goto-char (point-max))
+        (insert (format "\nProcessing URL: %s\n" url))
+        (insert (format "Command: archivebox add %s\n\n" url)))
+
+      (message "Started processing URL: %s" url))))
