@@ -344,112 +344,112 @@
 ;;; Snippet definitions:
 ;;;
 (yas-define-snippets 'latex-mode
-                     '((";z" "\\zeta $0" "zeta" 'auto nil nil
+                     '((";z" "\\zeta$0" "zeta" 'auto nil nil
                         "/home/jakob/.doom.d/yasnippet/latex-mode/greek/zeta.yasnippet"
                         nil nil)
-                       (";x" "\\xi $0" "xi" 'auto nil nil
+                       (";x" "\\xi$0" "xi" 'auto nil nil
                         "/home/jakob/.doom.d/yasnippet/latex-mode/greek/xi.yasnippet"
                         nil nil)
-                       (";vo" "\\vartheta $0" "vartheta" 'auto nil nil
+                       (";vo" "\\vartheta$0" "vartheta" 'auto nil nil
                         "/home/jakob/.doom.d/yasnippet/latex-mode/greek/vartheta.yasnippet"
                         nil nil)
-                       (";vf" "\\varphi $0" "varphi" 'auto nil nil
+                       (";vf" "\\varphi$0" "varphi" 'auto nil nil
                         "/home/jakob/.doom.d/yasnippet/latex-mode/greek/varphi.yasnippet"
                         nil nil)
-                       (";ve" "\\varepsilon $0" "varepsilon" 'auto nil nil
+                       (";ve" "\\varepsilon$0" "varepsilon" 'auto nil nil
                         "/home/jakob/.doom.d/yasnippet/latex-mode/greek/varepsilon.yasnippet"
                         nil nil)
-                       (";X" "\\Xi $0" "Xi" 'auto nil nil
+                       (";X" "\\Xi$0" "Xi" 'auto nil nil
                         "/home/jakob/.doom.d/yasnippet/latex-mode/greek/uXi.yasnippet"
                         nil nil)
-                       (";O" "\\Theta $0" "Theta" 'auto nil nil
+                       (";O" "\\Theta$0" "Theta" 'auto nil nil
                         "/home/jakob/.doom.d/yasnippet/latex-mode/greek/uTheta.yasnippet"
                         nil nil)
-                       (";S" "\\Sigma $0" "Sigma" 'auto nil nil
+                       (";S" "\\Sigma$0" "Sigma" 'auto nil nil
                         "/home/jakob/.doom.d/yasnippet/latex-mode/greek/uSigma.yasnippet"
                         nil nil)
-                       (";P" "\\Psi $0" "Psi" 'auto nil nil
+                       (";P" "\\Psi$0" "Psi" 'auto nil nil
                         "/home/jakob/.doom.d/yasnippet/latex-mode/greek/uPsi.yasnippet"
                         nil nil)
-                       (";I" "\\Pi $0" "Pi" 'auto nil nil
+                       (";I" "\\Pi$0" "Pi" 'auto nil nil
                         "/home/jakob/.doom.d/yasnippet/latex-mode/greek/uPi.yasnippet"
                         nil nil)
-                       (";F" "\\Phi $0" "Phi" 'auto nil nil
+                       (";F" "\\Phi$0" "Phi" 'auto nil nil
                         "/home/jakob/.doom.d/yasnippet/latex-mode/greek/uPhi.yasnippet"
                         nil nil)
-                       (";W" "\\Omega $0" "Omega" 'auto nil nil
+                       (";W" "\\Omega$0" "Omega" 'auto nil nil
                         "/home/jakob/.doom.d/yasnippet/latex-mode/greek/uOmega.yasnippet"
                         nil nil)
-                       (";L" "\\Lambda $0" "Lambda" 'auto nil nil
+                       (";L" "\\Lambda$0" "Lambda" 'auto nil nil
                         "/home/jakob/.doom.d/yasnippet/latex-mode/greek/uLambda.yasnippet"
                         nil nil)
-                       (";G" "\\Gamma $0" "Gamma" 'auto nil nil
+                       (";G" "\\Gamma$0" "Gamma" 'auto nil nil
                         "/home/jakob/.doom.d/yasnippet/latex-mode/greek/uGamma.yasnippet"
                         nil nil)
-                       (";D" "\\Delta $0" "Delta" 'auto nil nil
+                       (";D" "\\Delta$0" "Delta" 'auto nil nil
                         "/home/jakob/.doom.d/yasnippet/latex-mode/greek/uDelta.yasnippet"
                         nil nil)
-                       (";o" "\\theta $0" "theta" 'auto nil nil
+                       (";o" "\\theta$0" "theta" 'auto nil nil
                         "/home/jakob/.doom.d/yasnippet/latex-mode/greek/theta.yasnippet"
                         nil nil)
-                       (";t" "\\tau $0" "tau" 'auto nil nil
+                       (";t" "\\tau$0" "tau" 'auto nil nil
                         "/home/jakob/.doom.d/yasnippet/latex-mode/greek/tau.yasnippet"
                         nil nil)
-                       (";s" "\\sigma $0" "sigma" 'auto nil nil
+                       (";s" "\\sigma$0" "sigma" 'auto nil nil
                         "/home/jakob/.doom.d/yasnippet/latex-mode/greek/sigma.yasnippet"
                         nil nil)
-                       (";r" "\\rho $0" "rho" 'auto nil nil
+                       (";r" "\\rho$0" "rho" 'auto nil nil
                         "/home/jakob/.doom.d/yasnippet/latex-mode/greek/rho.yasnippet"
                         nil nil)
-                       (";p" "\\psi $0" "psi" 'auto nil nil
+                       (";p" "\\psi$0" "psi" 'auto nil nil
                         "/home/jakob/.doom.d/yasnippet/latex-mode/greek/psi.yasnippet"
                         nil nil)
-                       (";i" "\\pi $0" "pi" 'auto nil nil
+                       (";i" "\\pi$0" "pi" 'auto nil nil
                         "/home/jakob/.doom.d/yasnippet/latex-mode/greek/pi.yasnippet"
                         nil nil)
-                       (";f" "\\phi $0" "phi" 'auto nil nil
+                       (";f" "\\phi$0" "phi" 'auto nil nil
                         "/home/jakob/.doom.d/yasnippet/latex-mode/greek/phi.yasnippet"
                         nil nil)
-                       (";w" "\\omega $0" "omega" 'auto nil nil
+                       (";w" "\\omega$0" "omega" 'auto nil nil
                         "/home/jakob/.doom.d/yasnippet/latex-mode/greek/omega.yasnippet"
                         nil nil)
-                       (";n" "\\nu $0" "nu" 'auto nil nil
+                       (";n" "\\nu$0" "nu" 'auto nil nil
                         "/home/jakob/.doom.d/yasnippet/latex-mode/greek/nu.yasnippet"
                         nil nil)
-                       (";N" "\\nabla $0\n" "∇ (nabla)" 'auto nil nil
+                       (";N" "\\nabla$0" "∇ (nabla)" 'auto nil nil
                         "/home/jakob/.doom.d/yasnippet/latex-mode/greek/nabla.yasnippet"
                         nil nil)
-                       (";m" "\\mu $0" "mu" 'auto nil nil
+                       (";m" "\\mu$0" "mu" 'auto nil nil
                         "/home/jakob/.doom.d/yasnippet/latex-mode/greek/mu.yasnippet"
                         nil nil)
-                       (";l" "\\lambda $0" "lambda" 'auto nil nil
+                       (";l" "\\lambda$0" "lambda" 'auto nil nil
                         "/home/jakob/.doom.d/yasnippet/latex-mode/greek/lambda.yasnippet"
                         nil nil)
-                       (";k" "\\kappa $0" "kappa" 'auto nil nil
+                       (";k" "\\kappa$0" "kappa" 'auto nil nil
                         "/home/jakob/.doom.d/yasnippet/latex-mode/greek/kappa.yasnippet"
                         nil nil)
-                       (";g" "\\gamma $0" "gamma" 'auto nil nil
+                       (";g" "\\gamma$0" "gamma" 'auto nil nil
                         "/home/jakob/.doom.d/yasnippet/latex-mode/greek/gamma.yasnippet"
                         nil nil)
-                       (";h" "\\eta $0" "eta" 'auto nil nil
+                       (";h" "\\eta$0" "eta" 'auto nil nil
                         "/home/jakob/.doom.d/yasnippet/latex-mode/greek/eta.yasnippet"
                         nil nil)
-                       (";e" "\\epsilon $0" "epsilon" 'auto nil nil
+                       (";e" "\\epsilon$0" "epsilon" 'auto nil nil
                         "/home/jakob/.doom.d/yasnippet/latex-mode/greek/epsilon.yasnippet"
                         nil nil)
-                       (";d" "\\delta $0" "delta" 'auto nil nil
+                       (";d" "\\delta$0" "delta" 'auto nil nil
                         "/home/jakob/.doom.d/yasnippet/latex-mode/greek/delta.yasnippet"
                         nil nil)
-                       (";c" "\\chi $0" "chi" 'auto nil nil
+                       (";c" "\\chi$0" "chi" 'auto nil nil
                         "/home/jakob/.doom.d/yasnippet/latex-mode/greek/chi.yasnippet"
                         nil nil)
-                       (";b" "\\beta $0" "beta" 'auto nil nil
+                       (";b" "\\beta$0" "beta" 'auto nil nil
                         "/home/jakob/.doom.d/yasnippet/latex-mode/greek/beta.yasnippet"
                         nil nil)
-                       (";a" "\\alpha $0" "alpha" 'auto nil nil
+                       (";a" "\\alpha$0" "alpha" 'auto nil nil
                         "/home/jakob/.doom.d/yasnippet/latex-mode/greek/alpha.yasnippet"
                         nil nil)
-                       (";8" (progn (yas-expand-snippet "\\infty $0")) "8" 'auto
+                       (";8" (progn (yas-expand-snippet "\\infty$0")) "8" 'auto
                         nil nil
                         "/home/jakob/.doom.d/yasnippet/latex-mode/greek/8.yasnippet"
                         nil nil)))
@@ -477,7 +477,7 @@
                                (string-match "^$\\|[^a-zA-Z\\]$"
                                              (buffer-substring-no-properties
                                               (line-beginning-position) (point)))
-                               "\\vec{$1} $0"
+                               "\\vec{$1}$0"
                              "vv")))
                         "vv" (and (texmathp) 'auto) nil nil
                         "/home/jakob/.doom.d/yasnippet/latex-mode/math/vv.yasnippet"
@@ -489,7 +489,7 @@
                                (string-match "^$\\|[^a-zA-Z\\]$"
                                              (buffer-substring-no-properties
                                               (line-beginning-position) (point)))
-                               "\\uvec{$1} $0"
+                               "\\uvec{$1}$0"
                              "uv")))
                         "uv" (and (texmathp) 'auto) nil nil
                         "/home/jakob/.doom.d/yasnippet/latex-mode/math/uv.yasnippet"
@@ -501,7 +501,7 @@
                                (string-match "\\w$\\|[)}|']$\\|\\]$"
                                              (buffer-substring-no-properties
                                               (line-beginning-position) (point)))
-                               "^{T} $0"
+                               "^{T}$0"
                              "TT")))
                         "TTsuperscript" (and (texmathp) 'auto) nil nil
                         "/home/jakob/.doom.d/yasnippet/latex-mode/math/transposedsuperscript.yasnippet"
@@ -525,7 +525,7 @@
                                (string-match "^$\\|[^a-zA-Z\\]$"
                                              (buffer-substring-no-properties
                                               (line-beginning-position) (point)))
-                               "\\tfrac{$1}{$2} $0"
+                               "\\tfrac{$1}{$2}$0"
                              "tff")))
                         "tff" (and (texmathp) 'auto) nil nil
                         "/home/jakob/.doom.d/yasnippet/latex-mode/math/tff.yasnippet"
@@ -537,7 +537,7 @@
                                (string-match "\\w$\\|[)}|']$\\|\\]$"
                                              (buffer-substring-no-properties
                                               (line-beginning-position) (point)))
-                               "_{mathrm{$1}} $0"
+                               "_{mathrm{$1}}$0"
                              "sd")))
                         "Text subscript" (and (texmathp) 'auto) nil nil
                         "/home/jakob/.doom.d/yasnippet/latex-mode/math/textsubscript.yasnippet"
@@ -549,7 +549,7 @@
                                (string-match "\\w$\\|[)}|']$\\|\\]$"
                                              (buffer-substring-no-properties
                                               (line-beginning-position) (point)))
-                               "^{$1} $0"
+                               "^{$1}$0"
                              "'")))
                         "Superscript" (and (texmathp) 'auto) nil nil
                         "/home/jakob/.doom.d/yasnippet/latex-mode/math/superscript.yasnippet"
@@ -561,7 +561,7 @@
                                (string-match "\\w$\\|[)}|']$\\|\\]$"
                                              (buffer-substring-no-properties
                                               (line-beginning-position) (point)))
-                               "_{$1} $0"
+                               "_{$1}$0"
                              ";")))
                         "Subscript" (and (texmathp) 'auto) nil nil
                         "/home/jakob/.doom.d/yasnippet/latex-mode/math/subscript.yasnippet"
@@ -573,7 +573,7 @@
                                (string-match "\\w$\\|[)}|']$\\|\\]$"
                                              (buffer-substring-no-properties
                                               (line-beginning-position) (point)))
-                               "^{*} $0"
+                               "^{*}$0"
                              "**")))
                         "Starsuperscript" (and (texmathp) 'auto) nil nil
                         "/home/jakob/.doom.d/yasnippet/latex-mode/math/starsuperscript.yasnippet"
@@ -585,7 +585,7 @@
                                (string-match "^$\\|[^a-zA-Z\\]$"
                                              (buffer-substring-no-properties
                                               (line-beginning-position) (point)))
-                               "\\sqrt{$1} $0"
+                               "\\sqrt{$1}$0"
                              "sqrt")))
                         "sq" (and (texmathp) 'auto) nil nil
                         "/home/jakob/.doom.d/yasnippet/latex-mode/math/sq.yasnippet"
@@ -609,7 +609,7 @@
                                (string-match "^$\\|[^a-zA-Z\\]$"
                                              (buffer-substring-no-properties
                                               (line-beginning-position) (point)))
-                               "\\partial $0"
+                               "\\partial$0"
                              "pp")))
                         "pp" (and (texmathp) 'auto) nil nil
                         "/home/jakob/.doom.d/yasnippet/latex-mode/math/pp.yasnippet"
@@ -621,7 +621,7 @@
                                (string-match "^$\\|[^a-zA-Z\\]$"
                                              (buffer-substring-no-properties
                                               (line-beginning-position) (point)))
-                               "implies $0"
+                               "implies$0"
                              "=>")))
                         "implies" (and (texmathp) 'auto) nil nil
                         "/home/jakob/.doom.d/yasnippet/latex-mode/math/implies.yasnippet"
@@ -633,7 +633,7 @@
                                (string-match "^$\\|[^a-zA-Z\\]$"
                                              (buffer-substring-no-properties
                                               (line-beginning-position) (point)))
-                               "\\hat{$1} $0"
+                               "\\hat{$1}$0"
                              "hat")))
                         "hat" (and (texmathp) 'auto) nil nil
                         "/home/jakob/.doom.d/yasnippet/latex-mode/math/hat.yasnippet"
@@ -669,7 +669,7 @@
                                (string-match "^$\\|[^a-zA-Z\\]$"
                                              (buffer-substring-no-properties
                                               (line-beginning-position) (point)))
-                               "\\frac{$1}{$2} $0"
+                               "\\frac{$1}{$2}$0"
                              "ff")))
                         "ff" (and (texmathp) 'auto) nil nil
                         "/home/jakob/.doom.d/yasnippet/latex-mode/math/ff.yasnippet"
@@ -690,7 +690,7 @@
                         nil nil
                         "/home/jakob/.doom.d/yasnippet/latex-mode/math/exists.yasnippet"
                         nil nil)
-                       (";A" " \\forall $0\n" "every" (and (texmathp) 'auto) nil
+                       (";A" " \\forall$0\n" "every" (and (texmathp) 'auto) nil
                         nil
                         "/home/jakob/.doom.d/yasnippet/latex-mode/math/every.yasnippet"
                         nil nil)
@@ -701,7 +701,7 @@
                                (string-match "^$\\|[^a-zA-Z\\]$"
                                              (buffer-substring-no-properties
                                               (line-beginning-position) (point)))
-                               "\\Leftrightarrow $0"
+                               "\\Leftrightarrow$0"
                              "<=>")))
                         "equivalent" (and (texmathp) 'auto) nil nil
                         "/home/jakob/.doom.d/yasnippet/latex-mode/math/equivalent.yasnippet"
@@ -713,7 +713,7 @@
                                (string-match "^$\\|[^a-zA-Z]$"
                                              (buffer-substring-no-properties
                                               (line-beginning-position) (point)))
-                               "e^{$1} $0"
+                               "e^{$1}$0"
                              "ee")))
                         "Auto e" (and (texmathp) 'auto) nil nil
                         "/home/jakob/.doom.d/yasnippet/latex-mode/math/ee.yasnippet"
@@ -737,7 +737,7 @@
                                (string-match "^$\\|[^a-zA-Z\\]$"
                                              (buffer-substring-no-properties
                                               (line-beginning-position) (point)))
-                               "\\bar{$1} $0"
+                               "\\bar{$1}$0"
                              "bar")))
                         "bar" (and (texmathp) 'auto) nil nil
                         "/home/jakob/.doom.d/yasnippet/latex-mode/math/bar.yasnippet"
@@ -749,11 +749,11 @@
                                (string-match "\\w$\\|[)}|']$\\|\\]$"
                                              (buffer-substring-no-properties
                                               (line-beginning-position) (point)))
-                               "_{0} $0"
+                               "_{0}$0"
                              "00")))
                         "00 Subscript" (and (texmathp) 'auto) nil nil
                         "/home/jakob/.doom.d/yasnippet/latex-mode/math/00.yasnippet"
                         nil nil)))
 
 
-;;; Do not edit! File generated at Sat Nov 30 15:51:20 2024
+;;; Do not edit! File generated at Sat Jan 18 23:00:09 2025

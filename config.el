@@ -40,7 +40,7 @@
 
 ;; If you use `org' and don't want your org files in the default location below,
 ;; change `org-directory'. It must be set before org loads!
-(setq org-directory "~/org/")
+(setq org-directory "~/Documents/N - notes/NO - Org/")
 
 
 ;; Whenever you reconfigure a package, make sure to wrap your config in an
@@ -180,3 +180,19 @@ Argument URL is the URL to process."
         (insert (format "Command: archivebox add %s\n\n" url)))
 
       (message "Started processing URL: %s" url))))
+
+(setq calendar-week-start-day 1)
+
+;; Load org-ref and its dependencies
+(use-package org-ref
+  :ensure t
+  :config
+  ;; Set the bibliography path
+  (setq bibtex-completion-bibliography '("~/Documents/N - notes/NR - Org roam/References/main.bib")
+        bibtex-completion-library-path '("~/Documents/N - notes/NR - Org roam/References/pdfs/")
+        bibtex-completion-notes-path "~/Documents/N - notes/NR - Org roam/References/notes/"
+
+        ;; Configure org-ref
+        org-ref-bibliography-notes "~/Documents/N - notes/NR - Org roam/References/notes/"
+        org-ref-default-bibliography '("~/Documents/N - notes/NR - Org roam/References/main.bib")
+        org-ref-pdf-directory "~/Documents/N - notes/NR - Org roam/References/pdfs/"))
