@@ -77,6 +77,8 @@
 
 (setq org-roam-directory "~/Documents/N - notes/NR - Org roam")
 (load "~/.doom.d/texmathp.el")
+(load "~/.doom.d/frames-only-mode.el")
+(setq frames-only-mode t)
 (use-package yasnippet
   :config
   (setq yas-snippet-dirs '("~/.doom.d/yasnippet/"))
